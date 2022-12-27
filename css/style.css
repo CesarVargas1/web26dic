@@ -1581,12 +1581,26 @@ section {
     padding: 20px 0 30px 0;
 }
 
+.contact .info-box i.bx.bxl-whatsapp {
+    font-size: 32px;
+    color: #00bb2d;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #f16024;
+}
+.contact .info-box i.bx.bx-phone-call {
+    font-size: 32px;
+    color: #0F173A;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #f16024;
+}
 .contact .info-box i {
     font-size: 32px;
     color: #f16024;
     border-radius: 50%;
     padding: 8px;
-    border: 2px dotted #ffeeba;
+    border: 2px dotted #0F173A;
 }
 
 .contact .info-box h3 {
@@ -1828,7 +1842,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-    background: #ffce3a;
+    background: #F26225;
 }
 
 #footer .credits {
@@ -1839,8 +1853,8 @@ section {
 #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #e1e4ec;
-    color: #5f6f92;
+    background: #b2b2b2;
+    color:  #0F163A;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -1852,6 +1866,6 @@ section {
 }
 
 #footer .social-links a:hover {
-    background: #ffce3a;
+    background: #F26225;
     text-decoration: none;
 }
