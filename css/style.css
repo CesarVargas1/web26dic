@@ -24,7 +24,6 @@ h5,
 h6 {
     font-family: "Raleway", sans-serif;
 }
-
 /*--------------------------------------------------------------
   # Back to top button
   --------------------------------------------------------------*/
@@ -94,7 +93,6 @@ h6 {
 #header .logo img {
     max-height: 70px;
 }
-
 /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
@@ -209,7 +207,6 @@ h6 {
         left: -100%;
     }
 }
-
 /*
    Mobile Navigation 
   */
@@ -309,7 +306,6 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
     display: block;
 }
-
 /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
@@ -395,7 +391,6 @@ h6 {
         line-height: 24px;
     }
 }
-
 /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
@@ -437,7 +432,6 @@ section {
     font-size: 24px;
     color: #0f163a;
 }
-
 /*--------------------------------------------------------------
   # Breadcrumbs
   --------------------------------------------------------------*/
@@ -499,7 +493,6 @@ section {
         display: inline-block;
     }
 }
-
 /*--------------------------------------------------------------
   # Clients
   --------------------------------------------------------------*/
@@ -526,7 +519,6 @@ section {
         max-width: 40%;
     }
 }
-
 /*--------------------------------------------------------------
   #  nuestrosproductos
   --------------------------------------------------------------*/
@@ -612,14 +604,12 @@ section {
 .nuestrosproductos .member:hover .social {
     opacity: 5;
 }
-
-
 /* seccioninformacion
   --------------------------------*/
 #call-to-action {
     overflow: hidden;
-    background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)),
-        url(../img/call-to-action-bg.jpg) fixed center center;
+    background: linear-gradient(rgba(28, 12, 108, 0.65), rgba(229, 97, 45, 0.4)),
+      url(../img//call-to-action-bg2.jpg) fixed center center;
     background-size: cover;
     padding: 80px 0;
 }
@@ -660,7 +650,6 @@ section {
     background: #c53a13;
     border: 2px solid #163a0f;
 }
-
 /*seccioninformacion */
 /* Product Featuress Section
   --------------------------------*/
@@ -728,7 +717,6 @@ section {
 #features .section-description {
     padding-bottom: 10px;
 }
-
 /* Product Advanced Featuress Section
     --------------------------------*/
 #advanced-features {
@@ -810,7 +798,6 @@ section {
         padding: 0 0 30px 0;
     }
 }
-
 /*fin nuevo*/
 /*--------------------------------------------------------------
   # Abouut tuberiapvc
@@ -898,28 +885,7 @@ section {
         padding: 0 0 30px 0;
     }
 }
-
 /*  nuevo tuberiapvc*/
-/*--------------------------------------------------------------
-  # Counts
-  --------------------------------------------------------------*/
-.counts {
-    padding: 40px 0;
-}
-
-.counts .counters span {
-    font-size: 48px;
-    display: block;
-    color: #414c64;
-}
-
-.counts .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-}
-
 /*--------------------------------------------------------------
   # Servicees soldaduras
   --------------------------------------------------------------*/
@@ -1044,7 +1010,6 @@ section {
 .soldaduras .iconbox-teal:hover .icon i {
     color: #fff;
 }
-
 /*--------------------------------------------------------------
   # Cta
   --------------------------------------------------------------*/
@@ -1081,7 +1046,6 @@ section {
 .cta .cta-btn:hover {
     background: #f16024;
 }
-
 /*--------------------------------------------------------------
   # Testimonials
   --------------------------------------------------------------*/
@@ -1163,7 +1127,6 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #f16024;
 }
-
 /*--------------------------------------------------------------
   # Portfoliio productos electricos
   --------------------------------------------------------------*/
@@ -1261,7 +1224,6 @@ section {
     opacity: 1;
     bottom: 0;
 }
-
 /*--------------------------------------------------------------
   # productoselectricos Details
   --------------------------------------------------------------*/
@@ -1326,7 +1288,6 @@ section {
 .productoselectricos-details .productoselectricos-description p {
     padding: 0;
 }
-
 /*--------------------------------------------------------------
   # Teaam accesoriospvc
   --------------------------------------------------------------*/
@@ -1409,7 +1370,6 @@ section {
 .accesoriospvc .member:hover .social {
     opacity: 1;
 }
-
 /*--------------------------------------------------------------
   # Priciing Nosotros
   --------------------------------------------------------------*/
@@ -1529,7 +1489,6 @@ section {
     background: #f16024;
     color: #fff;
 }
-
 /*--------------------------------------------------------------
   # Frequently Asked Questions
   --------------------------------------------------------------*/
@@ -1612,7 +1571,6 @@ section {
         padding: 0;
     }
 }
-
 /*--------------------------------------------------------------
   # Contacto
   --------------------------------------------------------------*/
@@ -1744,7 +1702,6 @@ section {
         transform: rotate(360deg);
     }
 }
-
 /*--------------------------------------------------------------
   # Footer
   --------------------------------------------------------------*/
