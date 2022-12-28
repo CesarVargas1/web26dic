@@ -218,8 +218,8 @@ h6 {
     line-height: 0;
     transition: 0.5s;
 }
-
-@media (max-width: 991px) {
+/*@media (max-width: 991px este)*/
+@media (max-width: 930px) {
     .mobile-nav-toggle {
         display: block;
     }
@@ -331,7 +331,7 @@ h6 {
     text-align: center;
     padding-top: 50px;
 }
-
+/*@media (max-width: 992px)*/
 @media (max-width: 992px) {
     #inicio .container {
         padding-top: 0;
@@ -369,13 +369,13 @@ h6 {
 #inicio .btn-get-started:hover {
     background: #f16024;
 }
-
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px)*/
+@media (min-width: 980px) {
     #inicio {
         background-attachment: fixed;
     }
 }
-
+/*@media (max-width: 768px)*/
 @media (max-width: 768px) {
     #inicio {
         height: 100vh;
@@ -416,8 +416,8 @@ h6 {
     text-align: center;
     padding-top: 50px;
 }
-
-@media (max-width: 992px) {
+/*@media (max-width: 992px)*/
+@media (max-width: 1024px) {
     #tuberia .container {
         padding-top: 0;
     }
@@ -454,8 +454,8 @@ h6 {
 #tuberia .btn-get-started:hover {
     background: #f16024;
 }
-
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px)*/
+@media (min-width: 980px) {
     #tuberia {
         background-attachment: fixed;
     }
@@ -529,8 +529,8 @@ section {
     min-height: 40px;
     margin-top: 82px;
 }
-
-@media (max-width: 992px) {
+/*@media (max-width: 992px)*/
+@media (max-width: 980px) {
     .breadcrumbs {
         margin-top: 68px;
     }
@@ -541,8 +541,8 @@ section {
     font-weight: 300;
     margin: 0;
 }
-
-@media (max-width: 992px) {
+/*@media (max-width: 992px)*/
+@media (max-width: 980px) {
     .breadcrumbs h2 {
         margin: 0 0 10px 0;
     }
@@ -567,7 +567,8 @@ section {
     color: #6c757d;
     content: "/";
 }
-
+/*@media (max-width: 768px)
+*/
 @media (max-width: 768px) {
     .breadcrumbs .d-flex {
         display: block !important;
@@ -876,8 +877,8 @@ section {
         max-width: 50%;
     }
 }
-
-@media (max-width: 992px) {
+/*@media (max-width: 992px)*/
+@media (max-width: 980px) {
 
     #advanced-features .advanced-feature-img-right,
     #advanced-features .advanced-feature-img-left {
@@ -964,8 +965,8 @@ section {
         max-width: 100%;
     }
 }
-
-@media (max-width: 992px) {
+/*@media (max-width: 992px) */
+@media (max-width: 980px) {
 
     #tuberiapvc .tuberiapvc-img-right,
     #tuberiapvc .tuberiapvc-img-left {
