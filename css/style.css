@@ -418,9 +418,10 @@ h6 {
     padding-top: 50px;
 }
 /*@media (max-width: 992px)*/
-@media (max-width: 992px) {
+@media (max-width: 892px) {
     #tuberia .container {
         padding-top: 100PX;
+        padding-bottom: 100px;
     }
 }
 
@@ -461,8 +462,8 @@ h6 {
         background-attachment: fixed;
     }
 }
-
-@media (max-width: 768px) {
+/*@media (max-width: 768px)*/
+@media (max-width: 960px) {
     #tuberia {
         height: 100vh;
     }
