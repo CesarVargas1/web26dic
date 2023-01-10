@@ -332,9 +332,10 @@ h6 {
     padding-top: 50px;
 }
 /*@media (max-width: 992px)*/
-@media (max-width: 992px) {
+@media (max-width: 892px) {
     #inicio .container {
-        padding-top: 200px;
+        padding-top: 100px;
+        padding-bottom: 100px;
            }
 }
 
@@ -376,19 +377,19 @@ h6 {
     }
 }
 /*@media (max-width: 768px)*/
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     #inicio {
         height: 100vh;
     }
 
     #inicio h1 {
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 32px;
     }
 
     #inicio h2 {
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 20px;
+        line-height: 20px;
     }
 }
 
@@ -417,9 +418,9 @@ h6 {
     padding-top: 50px;
 }
 /*@media (max-width: 992px)*/
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
     #tuberia .container {
-        padding-top: 0;
+        padding-top: 100PX;
     }
 }
 
