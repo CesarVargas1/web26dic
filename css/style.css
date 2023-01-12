@@ -782,7 +782,7 @@ section {
     border-radius: 25px;
     transition: background 0.5s;
     margin: 10px;
-    border: 2px solid #fff;
+    border: 2px solid rgb(87, 242, 31);
     color: #fff;
 }
 
@@ -790,14 +790,6 @@ section {
     background: #c53a13;
     border: 2px solid #163a0f;
 }
-
-
-
-
-
-
-
-
 
 
 .cta {
@@ -833,9 +825,6 @@ section {
 .cta .cta-btn:hover {
     background: #f16024;
 }
-
-
-
 
 
 
