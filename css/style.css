@@ -481,33 +481,34 @@ h6 {
 
 /* ctatuberia pendiente*/
 
-#call-to-action {
+#call-to-action2  {
     overflow: hidden;
     background: linear-gradient(rgba(28, 12, 108, 0.65), rgba(229, 97, 45, 0.4)),
-      url(../img//call-to-action-bg2.jpg) fixed center center;
+      url(../img//clients/client-4Q.png) fixed center center;
     background-size: cover;
     padding: 80px 0;
 }
 
-#call-to-action .ctatuberia-title {
+#call-to-action2 .ctatuberia-title {
     color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: 700;
 }
 
-#call-to-action .ctatuberia-text {
+#call-to-action2 .ctatuberia-text {
     color: #fff;
 }
 
 @media (min-width: 769px) {
-    #call-to-action .ctatuberia-btn-container {
+    #call-to-action2 .ctatuberia-btn-container {
         display: flex;
         align-items: center;
+         display: inline-block;
         justify-content: flex-end;
     }
 }
 
-#call-to-action .ctatuberia-btn {
+#call-to-action2 .ctatuberia-btn {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -521,10 +522,12 @@ h6 {
     color: #fff;
 }
 
-#call-to-action .ctatuberia-btn:hover {
+#call-to-action2 .ctatuberia-btn:hover {
     background: #c53a13;
     border: 2px solid #163a0f;
 }
+
+
 
 
 /* ctatuberia*/
@@ -788,12 +791,12 @@ section {
 
 #call-to-action .cta-btn:hover {
     background: #c53a13;
-    border: 2px solid #163a0f;
+    border: 2px solid #921fc0;
 }
 
 
 .cta {
-    background: #414c64;
+    background: #644163;
     background-size: cover;
     padding: 60px 0;
 }
@@ -1190,7 +1193,7 @@ section {
     color: #fff;
 }
 /*--------------------------------------------------------------
-  # Cta
+  # Cta pendiente ctatuberia
   --------------------------------------------------------------*/
 .cta {
     background: #414c64;
@@ -1225,6 +1228,44 @@ section {
 .cta .cta-btn:hover {
     background: #f16024;
 }
+
+
+.ctatuberia {
+    background: #414c64;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.ctatuberia h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.ctatuberia p {
+    color: #fff;
+}
+
+.ctatuberia .ctatuberia-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #f16024;
+    color: #fff;
+}
+
+.ctatuberia .ctatuberia-btn:hover {
+    background: #f16024;
+}
+
+
+
 /*--------------------------------------------------------------
   # Testimonials
   --------------------------------------------------------------*/
