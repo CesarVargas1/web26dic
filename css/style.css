@@ -1196,7 +1196,7 @@ section {
   # Cta pendiente ctatuberia
   --------------------------------------------------------------*/
 .cta {
-    background: #414c64;
+    background: #0F163A;
     background-size: cover;
     padding: 60px 0;
 }
@@ -1221,7 +1221,7 @@ section {
     border-radius: 25px;
     transition: 0.5s;
     margin-top: 10px;
-    border: 2px solid #f16024;
+    border: 2px solid #00bb2d;
     color: #fff;
 }
 
@@ -1231,7 +1231,7 @@ section {
 
 
 .ctatuberia {
-    background: #414c64;
+    background: #d0e722;
     background-size: cover;
     padding: 60px 0;
 }
