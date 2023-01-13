@@ -1231,7 +1231,7 @@ section {
 
 
 .ctatuberia {
-    background: #d0e722;
+    background: #f16024;
     background-size: cover;
     padding: 60px 0;
 }
@@ -1256,12 +1256,12 @@ section {
     border-radius: 25px;
     transition: 0.5s;
     margin-top: 10px;
-    border: 2px solid #f16024;
+    border: 2px solid #0F163A; 
     color: #fff;
 }
 
 .ctatuberia .ctatuberia-btn:hover {
-    background: #f16024;
+    background:  #00bb2d;
 }
 
 
