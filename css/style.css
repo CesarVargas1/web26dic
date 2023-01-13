@@ -704,14 +704,28 @@ section {
     justify-content: center;
 }
 
+
+.nuestrosproductos .member .social p {
+    transition: color 0.3s;
+    color: #ffffff;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nuestrosproductos .member .social a i {
     line-height: 0;
 }
 
 .nuestrosproductos .member .social a:hover {
-    color: #f16024;
+    color: #0F163A;
 }
 
+
+.nuestrosproductos .member .social p:hover {
+    color: #0F163A;
+}
 .nuestrosproductos .member .social i {
     font-size: 18px;
     margin: 0 2px;
@@ -1261,7 +1275,7 @@ section {
 }
 
 .ctatuberia .ctatuberia-btn:hover {
-    background:  #00bb2d;
+    background:   #0F163A; 
 }
 
 
