@@ -887,7 +887,7 @@ section {
 
 #features .icon i:before {
     background: #1dc8cd;
-    background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+    background: linear-gradient(45deg, #F16024 0%, #0F163A 100%);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
