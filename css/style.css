@@ -439,6 +439,10 @@ h6 {
     font-size: 22px;
 }
 
+
+  
+
+
 #tuberia .btn-get-started {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
@@ -478,6 +482,13 @@ h6 {
         line-height: 20px;
     }
 }
+
+
+
+
+
+
+
 
 /* ctatuberia pendiente*/
 
@@ -844,6 +855,41 @@ section {
 }
 
 
+/*infotuberia*/
+
+/*#Features
+--------------------------------------------------------------*/
+.infotuberia .content+.content {
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .infotuberia .content h3 {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  
+  .infotuberia .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .infotuberia .content ul li {
+    padding-bottom: 10px;
+  }
+  
+  .infotuberia .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #3b4ef8;
+  }
+  
+  .infotuberia .content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  
+  /*infotuberia*/
 
 /*seccioninformacion */
 /* Product Featuress Section
@@ -1004,7 +1050,7 @@ section {
 
 .tuberiapvc h3 {
     font-weight: 700;
-    font-size: 34px;
+    font-size: 20px;
     color: #414c64;
 }
 
@@ -1015,11 +1061,22 @@ section {
 }
 
 .tuberiapvc i {
-    font-size: 48px;
+    font-size: 155px;
     margin-top: 15px;
-    color: #ddda13;
+  
     float: right;
 }
+
+
+.tuberiapvc p {
+
+    margin-top: 15px;
+
+ 
+}
+
+
+  
 
 #tuberiapvc-feature-img-right {
     max-width: 100%;
@@ -1037,7 +1094,7 @@ section {
 
 #tuberiapvc i {
     color: #666666;
-    font-size: 64px;
+    font-size: 40px;
     transition: 0.5s;
     float: left;
     padding: 0 15px 0px 0;
@@ -1063,6 +1120,12 @@ section {
     float: left;
     padding: 0 30px 30px 0;
 }
+
+
+#tuberiapvc div{
+     padding-bottom: 15px;
+}
+
 
 @media (max-width: 768px) {
 
