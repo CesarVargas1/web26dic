@@ -533,13 +533,6 @@ h6 {
     }
 }
 
-
-
-
-
-
-
-
 /* ctatuberia pendiente*/
 
 #call-to-action2  {
@@ -939,6 +932,8 @@ section {
     color: #0F163A;
     text-align: center;
   }
+
+  
   /*  @media (max-width: 575px)*/
   @media (max-width: 650px) {
     .tablatuberiapvc .nav-link h4 {
@@ -957,6 +952,47 @@ section {
     border-color: var(--color-secondary);
   }
   
+
+
+/*NN*/
+
+.tablatuberiapvc .tablatuberiapvc-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #0F163A; 
+    color: #F16024;
+}
+
+
+.tablatuberiapvc .tablatuberiapvc-btn:hover {
+    background:   #0F163A; 
+
+}
+
+/*pendiente centrar */
+.tablatuberiapvc .tab-content a{
+   text-align: center;
+
+  
+    width: 50.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+
+}
+
+ /*NN*/ 
+
+
   .tablatuberiapvc .tab-content {
     margin-top: 30px;
   }
@@ -979,7 +1015,7 @@ section {
     left: 0;
     bottom: 0;
   }
-  
+
   .tablatuberiapvc .tab-pane ul {
     list-style: none;
     padding: 0;
