@@ -854,18 +854,12 @@ section {
     background: #f16024;
 }
 
-
-
-/*#Features
---------------------------------------------------------------*/
-
-/* new*/
-
 /*--------------------------------------------------------------
-# Features Section
+# Section tablatuberiapvc
 --------------------------------------------------------------*/
 .tablatuberiapvc .nav-tabs {
     border: 0;
+    color: #F16024;
   }
   
   .tablatuberiapvc .nav-link {
@@ -891,22 +885,25 @@ section {
     font-size: 18px;
     font-weight: 600;
     margin: 0;
+    color: #0F163A;
+    text-align: center;
   }
-  
-  @media (max-width: 575px) {
+  /*  @media (max-width: 575px)*/
+  @media (max-width: 650px) {
     .tablatuberiapvc .nav-link h4 {
-      font-size: 16px;
+      font-size: 13px;
+      text-align: center;
     }
   }
   
   .tablatuberiapvc .nav-link:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
   }
   
   .tablatuberiapvc .nav-link.active {
-    color: var(--color-primary);
+    color: var(--color-secondary);
     background-color: transparent;
-    border-color: var(--color-primary);
+    border-color: var(--color-secondary);
   }
   
   .tablatuberiapvc .tab-content {
@@ -950,17 +947,10 @@ section {
   .tablatuberiapvc .tab-pane p:last-child {
     margin-bottom: 0;
   }
-  
 
-/*new */
-
-
-
-
+/*new tablatuberiapvc*/
 
 /*infotuberia */
-
-
 .infotuberia .content+.content {
     margin-top: 100px;
     font-family: "Montserrat", sans-serif;
