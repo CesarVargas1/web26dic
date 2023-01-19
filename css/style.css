@@ -557,6 +557,7 @@ section {
 .section-title {
     text-align: center;
     padding-bottom: 30px;
+    color: #0F163A;
 }
 
 .section-title h2 {
@@ -873,7 +874,7 @@ section {
     cursor: pointer;
     height: 100%;
     border: 0;
-    border-bottom: 4px solid #e2e4e6;
+    border-bottom: 4px solid #0F163A;
   }
   
   .tablatuberiapvc .nav-link i {
@@ -1185,7 +1186,6 @@ section {
 }
 
 #tuberiapvc i {
-    color: #666666;
     font-size: 40px;
     transition: 0.5s;
     float: left;
