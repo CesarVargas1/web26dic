@@ -933,7 +933,6 @@ section {
     text-align: center;
   }
 
-  
   /*  @media (max-width: 575px)*/
   @media (max-width: 650px) {
     .tablatuberiapvc .nav-link h4 {
@@ -951,16 +950,11 @@ section {
     background-color: transparent;
     border-color: var(--color-secondary);
   }
-  
-/*NN*/
 
-.tablatuberiapvc .tablatuberiapvc-btn a i{
-
+  .tablatuberiapvc .tablatuberiapvc-btn a i{
     width: 30.33%;
     display: flex;
     align-items: center;
-  
-    
 }
 
 .tablatuberiapvc .tablatuberiapvc-btn{
@@ -968,36 +962,17 @@ section {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
-    
     padding: 10px 35px;
     border-radius: 25px;
     transition: 0.5s;
     margin-top: 10px;
     border: 2px solid #0F163A; 
     color: #F16024;
-  
-
-    
-
 }
-
-
-
-
 
 .tablatuberiapvc .tablatuberiapvc-btn:hover {
-    background:   #0F163A; 
-
+    background: #0F163A; 
 }
-
-/*pendiente centrar */
-
-
-
-
-
- /*NN*/ 
-
 
   .tablatuberiapvc .tab-content {
     margin-top: 30px;
@@ -1066,7 +1041,7 @@ section {
   .infotuberia .content ul i {
     font-size: 20px;
     padding-right: 4px;
-    color: #3b4ef8;
+    color: #0F173A;
   }
   
   .infotuberia .content p:last-child {
