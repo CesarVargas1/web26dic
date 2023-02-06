@@ -54,6 +54,11 @@
     window.addEventListener('load', navbarlinksActive)
     onscroll(document, navbarlinksActive)
 
+
+
+/**/
+
+
     /**
      * Scrolls to an element with header offset
      */
@@ -114,15 +119,39 @@
     })
 
     /**
-     * Mobile nav dropdowns activate
+     * Mobile nav dropdowns activate cesar
      */
     on('click', '.navbar .dropdown > a', function(e) {
         if (select('#navbar').classList.contains('navbar-mobile')) {
             e.preventDefault()
             this.nextElementSibling.classList.toggle('dropdown-active')
+
+
+            let dropDownIndicator = this.querySelector('.dropdown-indicator');
+            dropDownIndicator.classList.toggle('bi-chevron-up');
+            dropDownIndicator.classList.toggle('bi-chevron-down');
         }
     }, true)
 
+
+    const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
+
+    navDropdowns.forEach(el => {
+      el.addEventListener('click', function(event) {
+        if (document.querySelector('.mobile-nav-active')) {
+          event.preventDefault();
+          this.classList.toggle('active');
+          this.nextElementSibling.classList.toggle('dropdown-active');
+  
+          let dropDownIndicator = this.querySelector('.dropdown-indicator');
+          dropDownIndicator.classList.toggle('bi-chevron-up');
+          dropDownIndicator.classList.toggle('bi-chevron-down');
+        }
+      })
+    });
+
+
+    
     /**
      * Scrool with ofset on links with a class name .scrollto
      */
@@ -244,3 +273,7 @@
     });
 
 })()
+
+
+/* esconder menu */
+
