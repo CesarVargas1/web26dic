@@ -24,9 +24,7 @@ h5,
 h6 {
     font-family: "Raleway", sans-serif;
 }
-/*--------------------------------------------------------------
-  # Back to top button
-  --------------------------------------------------------------*/
+/*------  # Back to top button---------------------*/
 .back-to-top {
     position: fixed;
     visibility: hidden;
@@ -56,9 +54,8 @@ h6 {
     visibility: visible;
     opacity: 1;
 }
-/*--------------------------------------------------------------
-  # Header 
-  --------------------------------------------------------------*/
+/*------------------  # Header -------------------------------*/
+
 #header {
     transition: all 0.5s;
     z-index: 997;
@@ -93,12 +90,9 @@ h6 {
 #header .logo img {
     max-height: 70px;
 }
-/*--------------------------------------------------------------
-  # Navigation Menu
-  --------------------------------------------------------------*/
-/*
-   Desktop Navigation 
-  */
+
+/*----------------------------navbar------------------*/
+
 .navbar {
     padding: 0;
 }
@@ -307,10 +301,8 @@ h6 {
     display: block;
 }
 
+/*------------------inicio---------------------------------*/
 
-/*--------------------------------------------------------------
-  # inicio
-  --------------------------------------------------------------*/
 #inicio {
     width: 100%;
     height: 80vh;
@@ -395,12 +387,9 @@ h6 {
     }
 }
 
+/* ---------iniciosoldadura ---------*/
 
-
-/*iniciosoldadura*/
-
-
-  #iniciosoldadura {
+#iniciosoldadura {
     width: 100%;
     height: 80vh;
     background: url("/img/iniciosoldadura.jpg") top center;
@@ -484,8 +473,7 @@ h6 {
     }
 }
 
-
-/*cuadrossanitaria*/
+/* ----------cuadrossanitaria -----------*/
 
 .cuadrossanitaria {
     padding-top: 10px;
@@ -530,10 +518,8 @@ h6 {
   .cuadrossanitaria .box:hover p {
     color: #fff;
   }
-  
-/*cuadrossanitaria*/
 
-/*tuberiasanitaria inicio*/
+/* ---------tuberiasanitaria inicio -----------*/
 
 #tuberiasanitaria {
     width: 100%;
@@ -667,9 +653,6 @@ h6 {
     border: 2px solid #163a0f;
 }
 
-
-
-
 /* ctatuberia*/
 
 /*--------------------------------------------------------------
@@ -776,9 +759,8 @@ section {
         display: inline-block;
     }
 }
-/*--------------------------------------------------------------
-  # Clients
-  --------------------------------------------------------------*/
+/*------------------Clients ----------------------------*/
+
 .clients {
     padding: 15px 0;
     text-align: center;
@@ -802,9 +784,8 @@ section {
         max-width: 40%;
     }
 }
-/*--------------------------------------------------------------
-  #  nuestrosproductos
-  --------------------------------------------------------------*/
+/*----------------- nuestrosproductos---------------------*/
+
 .nuestrosproductos .member {
     margin-bottom: 20px;
     overflow: hidden;
@@ -911,9 +892,7 @@ section {
     opacity: 5;
 }
 
-/*--------------------------------------------------------------
-  #  nuestrasoldadura
-  --------------------------------------------------------------*/
+/*------------------nuestrasoldadura --------------------------*/
   .nuestrasoldadura .member {
     margin-bottom: 20px;
     overflow: hidden;
@@ -1021,9 +1000,7 @@ section {
 }
 
 
-
-
-/* seccioninformacion
+/* seccioninformacion  verificar
   --------------------------------*/
 #call-to-action {
     overflow: hidden;
@@ -1106,9 +1083,8 @@ section {
     background: #f16024;
 }
 
-/*--------------------------------------------------------------
-# Section tablatuberiapvc
---------------------------------------------------------------*/
+/*-------- tablatuberiapvc----------------------*/
+
 .tablatuberiapvc .nav-tabs {
     border: 0;
     color: #F16024;
@@ -1224,9 +1200,8 @@ section {
     margin-bottom: 0;
   }
 
-/*new tablatuberiapvc*/
+/* -----infotuberia ------ */
 
-/*infotuberia */
 .infotuberia .content+.content {
     margin-top: 100px;
     font-family: "Montserrat", sans-serif;
@@ -1256,49 +1231,46 @@ section {
     margin-bottom: 0;
   }
     
-  /*infotuberia*/
+/* ------ beneficios-----------*/
 
-/*seccioninformacion */
-/* Product Featuress Section
-  --------------------------------*/
-#features {
+#beneficios {
     background: #fff;
     padding: 60px 0 0 0;
     overflow: hidden;
 }
 
-#features .features-img {
+#beneficios .beneficios-img {
     text-align: center;
     padding-top: 20px;
 }
 
 @media (min-width: 769px) {
-    #features .features-img {
+    #beneficios .beneficios-img {
         padding-top: 120px;
         margin-top: -40px;
     }
 }
 
-#features .features-img img {
+#beneficios .beneficios-img img {
     max-width: 100%;
 }
 
-#features .box {
+#beneficios .box {
     margin-bottom: 15px;
     text-align: center;
 }
 
-#features .icon {
+#beneficios .icon {
     margin-bottom: 10px;
 }
 
-#features .icon i {
+#beneficios .icon i {
     color: #666666;
     font-size: 40px;
     transition: 0.5s;
 }
 
-#features .icon i:before {
+#beneficios .icon i:before {
     background: #1dc8cd;
     background: linear-gradient(45deg, #F16024 0%, #0F163A 100%);
     background-clip: border-box;
@@ -1306,44 +1278,44 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-#features .title {
+#beneficios .title {
     font-weight: 300;
     margin-bottom: 15px;
     font-size: 22px;
 }
 
-#features .title a {
+#beneficios .title a {
     color: #111;
 }
 
-#features .description {
+#beneficios .description {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 10px;
 }
 
-#features .section-description {
+#beneficios .section-description {
     padding-bottom: 10px;
 }
-/* Product Advanced Featuress Section    --------------------------------*/
+/* ----------------beneficios  ----------------*/
 
-#advanced-features {
+#advanced-beneficios {
     overflow: hidden;
     text-align: center;
 }
 
-#advanced-features .features-row {
+#advanced-beneficios .beneficios-row {
     padding: 60px 0 30px 0;
 }
 
-#advanced-features h2 {
+#advanced-beneficios h2 {
     font-size: 26px;
     font-weight: 700;
     color: #000;
     text-align: justify;
 }
 
-#advanced-features h3 {
+#advanced-beneficios h3 {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -1352,7 +1324,7 @@ section {
     text-align: justify;
 }
 
-#advanced-features p {
+#advanced-beneficios p {
     line-height: 24px;
     color: #777;
     margin-bottom: 30px;
@@ -1360,7 +1332,7 @@ section {
     font-size: 24px;
 }
 
-#advanced-features i {
+#advanced-beneficios i {
     color: #666666;
     font-size: 64px;
     transition: 0.5s;
@@ -1369,7 +1341,7 @@ section {
     line-height: 1;
 }
 
-#advanced-features i:before {
+#advanced-beneficios i:before {
     background: #1dc8cd;
     background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
     background-clip: border-box;
@@ -1377,13 +1349,13 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-#advanced-features .advanced-feature-img-right {
+#advanced-beneficios .advanced-feature-img-right {
     max-width: 100%;
     float: right;
     padding: 0 0 30px 30px;
 }
 
-#advanced-features .advanced-feature-img-left {
+#advanced-beneficios .advanced-feature-img-left {
     max-width: 100%;
     float: left;
     padding: 0 30px 30px 0;
@@ -1391,25 +1363,24 @@ section {
 
 @media (max-width: 768px) {
 
-    #advanced-features .advanced-feature-img-right,
-    #advanced-features .advanced-feature-img-left {
+    #advanced-beneficios .advanced-feature-img-right,
+    #advanced-beneficios .advanced-feature-img-left {
         max-width: 50%;
     }
 }
 
 @media (max-width: 992px) {
 
-    #advanced-features .advanced-feature-img-right,
-    #advanced-features .advanced-feature-img-left {
+    #advanced-beneficios .advanced-feature-img-right,
+    #advanced-beneficios .advanced-feature-img-left {
         max-width: 100%;
         float: none;
         padding: 0 0 30px 0;
     }
 }
-/*fin nuevo*/
-/*--------------------------------------------------------------
-  # Abouut tuberiapvc sanitariatuberiapvc
-  --------------------------------------------------------------*/
+
+/*----------------- # sanitariatuberiapvc--------------------*/
+
 .sanitariatuberiapvc {
     text-align: center;
     padding-bottom: 30px;
@@ -1443,10 +1414,6 @@ section {
     padding: 0 0 5px 5px;
 }
 
-/*  nuevo sanitariatuberiapvc*/
-
-/* Product Advanced Featuress Section
-    --------------------------------*/
 #sanitariatuberiapvc .sanitariatuberiapvc-row {
     padding: 60px 0 30px 0;
 }
@@ -1502,8 +1469,8 @@ section {
         padding: 0 0 30px 0;
     }
 }
-/*  nuevo sanitariatuberiapvc*/
-/*---------------------------- # Servicees soldaduras   ----------------*/
+
+/*----------- soldaduras   ----------------*/
 
 .soldaduras .icon-box {
     text-align: center;
@@ -1627,7 +1594,7 @@ section {
     color: #fff;
 }
 
-/*---------------------------------   # Cta pendiente ctatuberia   -------------------*/
+/*----------- Cta inicio   -------------------*/
 
 .cta {
     background: #0F163A;
@@ -1663,6 +1630,7 @@ section {
     background: #f16024;
 }
 
+/*-----------  ctatuberia   -------------------*/
 
 .ctatuberia {
     background: #f16024;
@@ -1698,11 +1666,8 @@ section {
     background:   #0F163A; 
 }
 
+/*----------------------testimonials-----------------------*/
 
-
-/*--------------------------------------------------------------
-  # Testimonials
-  --------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
     overflow: hidden;
@@ -1781,9 +1746,9 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #f16024;
 }
-/*--------------------------------------------------------------
-  # Portfoliio productos electricos
-  --------------------------------------------------------------*/
+
+/*----------productoselectricos-------------------*/
+
 .productoselectricos #productoselectricos-flters {
     padding: 0;
     margin: 0 auto 25px auto;
@@ -1878,9 +1843,8 @@ section {
     opacity: 1;
     bottom: 0;
 }
-/*--------------------------------------------------------------
-  # productoselectricos Details
-  --------------------------------------------------------------*/
+/*------ productoselectricos Details----------------------------*/
+
 .productoselectricos-details {
     padding-top: 40px;
 }
@@ -1942,9 +1906,7 @@ section {
 .productoselectricos-details .productoselectricos-description p {
     padding: 0;
 }
-/*--------------------------------------------------------------
-  # Teaam accesoriospvc
-  --------------------------------------------------------------*/
+/*---------------accesoriospvc ----------------------------*/
 .accesoriospvc .member {
     margin-bottom: 20px;
     overflow: hidden;
@@ -2025,7 +1987,7 @@ section {
     opacity: 1;
 }
 
-/*------------------------  # Priciing Nosotros   -----------------------------------------*/
+/*----------Nosotros quitar  ---------------*/
 
 .nosotros .box {
     padding: 20px;
@@ -2143,9 +2105,9 @@ section {
     background: #f16024;
     color: #fff;
 }
-/*--------------------------------------------------------------
-  # Frequently Asked Questions
-  --------------------------------------------------------------*/
+
+/*----- preguntas frecuentes---------------*/
+
 .faq .faq-list {
     padding: 0 100px;
 }
@@ -2226,8 +2188,7 @@ section {
     }
 }
 
-/*---------------------------   # Contacto   ----------------------------*/
-
+/*------------ Contacto  -----------*/
 
 .contact .info-box {
     color: #444444;
@@ -2377,9 +2338,7 @@ section {
         transform: rotate(360deg);
     }
   }
-/*--------------------------------------------------------------
-  # Footer
-  --------------------------------------------------------------*/
+/*----------- Footer ----------------*/
 #footer {
     color: #414c64;
     font-size: 14px;
