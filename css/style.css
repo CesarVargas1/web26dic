@@ -2313,8 +2313,12 @@ section {
 }
 
 /*------------ Contacto  -----------*/
+.contact{
+    background-color: #fafafc;
+}
 
 .contact .info-box {
+    background-color: #fff;
     color: #444444;
     text-align: center;
     box-shadow: 0 0 20px rgba(65, 76, 100, 0.05);
