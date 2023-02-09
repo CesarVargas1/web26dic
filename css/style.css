@@ -2495,7 +2495,7 @@ section {
     line-height: 24px;
     margin-bottom: 0;
     font-family: "Raleway", sans-serif;
-    color: #777777;
+    color: #000000;
 }
 
 #footer .footer-top h4 {
@@ -2534,7 +2534,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-    color: #777777;
+    color: #000000;
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
