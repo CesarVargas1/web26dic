@@ -1805,25 +1805,25 @@ section {
     color: #fff;
 }
 
-/*----------- Cta inicio   -------------------*/
+/*----------- ctaazul  -------------------*/
 
-.cta {
+.ctaazul {
     background: #0F163A;
     background-size: cover;
     padding: 60px 0;
 }
 
-.cta h3 {
+.ctaazul h3 {
     color: #fff;
     font-size: 28px;
     font-weight: 700;
 }
 
-.cta p {
+.ctaazul p {
     color: #fff;
 }
 
-.cta .cta-btn {
+.ctaazul .ctaazul-btn {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -1837,29 +1837,29 @@ section {
     color: #fff;
 }
 
-.cta .cta-btn:hover {
+.ctaazul .ctaazul-btn:hover {
     background: #f16024;
 }
 
-/*-----------  ctatuberia   -------------------*/
+/*-----------  ctanaranja   -------------------*/
 
-.ctatuberia {
+.ctanaranja {
     background: #f16024;
     background-size: cover;
     padding: 60px 0;
 }
 
-.ctatuberia h3 {
+.ctanaranja h3 {
     color: #fff;
     font-size: 28px;
     font-weight: 700;
 }
 
-.ctatuberia p {
+.ctanaranja p {
     color: #fff;
 }
 
-.ctatuberia .ctatuberia-btn {
+.ctanaranja .ctanaranja-btn {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -1873,29 +1873,29 @@ section {
     color: #fff;
 }
 
-.ctatuberia .ctatuberia-btn:hover {
+.ctanaranja .ctanaranja-btn:hover {
     background:   #0F163A; 
 }
 
-/*-----------  ctaconduit  -------------------*/
+/*-----------  ctagris -------------------*/
 
-.ctaconduit {
+.ctagris {
     background: #c2c2c2;
     background-size: cover;
     padding: 60px 0;
 }
 
-.ctaconduit h3 {
+.ctagris h3 {
     color: #0F163A;
     font-size: 28px;
     font-weight: 700;
 }
 
-.ctaconduit p {
+.ctagris p {
     color: #0F163A;
 }
 
-.ctaconduit .ctaconduit-btn {
+.ctagris .ctagris-btn {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -1909,9 +1909,48 @@ section {
     color: #0F163A;
 }
 
-.ctaconduit .ctaconduit-btn:hover {
+.ctagris .ctagris-btn:hover {
     background:   #F16024; 
 }
+
+
+/*-----------  ctablanco -------------------*/
+
+.ctablanco {
+    background: #fff;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.ctablanco h3 {
+    color: #0F163A;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.ctablanco p {
+    color: #0F163A;
+}
+
+.ctablanco .ctablanco-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #0F163A; 
+    color: #0F163A;
+}
+
+.ctablanco .ctablanco-btn:hover {
+    background:   #F16024; 
+}
+
+
 
 /*----------------------testimonials-----------------------*/
 
