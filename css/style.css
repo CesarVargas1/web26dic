@@ -605,6 +605,94 @@ h6 {
     }
 }
 
+
+/* ---------tuberiaconduit inicio -----------*/
+
+#tuberiaconduit {
+    width: 100%;
+    height: 80vh;
+    background: url("/img/tuberia/tuberiaconduit/fondoconduit.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+
+#tuberiaconduit:before {
+    content: "";
+    background: rgba(45, 53, 69, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#tuberiaconduit .container {
+    text-align: center;
+    padding-top: 50px;
+}
+/*@media (max-width: 992px)*/
+@media (max-width: 892px) {
+    #tuberiaconduit .container {
+        padding-top: 100PX;
+        padding-bottom: 100px;
+    }
+}
+
+#tuberiaconduit h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#tuberiaconduit h2 {
+    color: #eee;
+    margin: 15px 0 0 0;
+    font-size: 22px;
+}
+
+#tuberiaconduit .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 9px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 40px;
+    border: 2px solid #f16024;
+    color: #fff;
+}
+
+#tuberiaconduit .btn-get-started:hover {
+    background: #f16024;
+}
+/*@media (min-width: 1024px)*/
+@media (min-width: 980px) {
+    #tuberiaconduit {
+        background-attachment: fixed;
+    }
+}
+/*@media (max-width: 768px)*/
+@media (max-width: 960px) {
+    #tuberiaconduit {
+        height: 100vh;
+    }
+
+    #tuberiaconduit h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #tuberiaconduit h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+
 /* ctatuberia pendiente*/
 
 #call-to-action2  {
@@ -1503,46 +1591,46 @@ section {
     }
 }
 
-/*----------------- # sanitariatuberiapvc--------------------*/
+/*----------------- tuberiaconduitpvc--------------------*/
 
-.sanitariatuberiapvc {
+.tuberiaconduitpvc {
     text-align: center;
     padding-bottom: 30px;
 }
 
-.sanitariatuberiapvc h3 {
+.tuberiaconduitpvc h3 {
     font-weight: 700;
     font-size: 20px;
     color: #414c64;
 }
 
-.sanitariatuberiapvc h4 {
+.tuberiaconduitpvc h4 {
     font-size: 20px;
     font-weight: 700;
     margin-top: 5px;
 }
 
-.sanitariatuberiapvc i {
+.tuberiaconduitpvc i {
     font-size: 155px;
     margin-top: 15px;
     float: right;
 }
 
-.sanitariatuberiapvc p {
+.tuberiaconduitpvc p {
     margin-top: 15px;
 }
 
-#sanitariatuberiapvc-feature-img-right {
+#tuberiaconduitpvc-feature-img-right {
     max-width: 100%;
     float: right;
     padding: 0 0 5px 5px;
 }
 
-#sanitariatuberiapvc .sanitariatuberiapvc-row {
+#tuberiaconduitpvc .tuberiaconduitpvc-row {
     padding: 60px 0 30px 0;
 }
 
-#sanitariatuberiapvc i {
+#tuberiaconduitpvc i {
     font-size: 40px;
     transition: 0.5s;
     float: left;
@@ -1550,7 +1638,7 @@ section {
     line-height: 1;
 }
 
-#sanitariatuberiapvc i:before {
+#tuberiaconduitpvc i:before {
     background: #1dc8cd;
     background: linear-gradient(45deg, #f16024 0%, #0f163a 100%);
     background-clip: border-box;
@@ -1558,36 +1646,35 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-#sanitariatuberiapvc .sanitariatuberiapvc-img-right {
+#tuberiaconduitpvc .tuberiaconduitpvc-img-right {
     max-width: 100%;
     float: right;
     padding: 0 0 30px 30px;
 }
 
-#sanitariatuberiapvc .sanitariatuberiapvc-img-left {
+#tuberiaconduitpvc .tuberiaconduitpvc-img-left {
     max-width: 100%;
     float: left;
     padding: 0 30px 30px 0;
 }
 
 
-#sanitariatuberiapvc div{
+#tuberiaconduitpvc div{
      padding-bottom: 15px;
 }
 
-
 @media (max-width: 768px) {
 
-    #sanitariatuberiapvc .sanitariatuberiapvc-img-right,
-    #sanitariatuberiapvc .sanitariatuberiapvc-img-left {
+    #tuberiaconduitpvc .tuberiaconduitpvc-img-right,
+    #tuberiaconduitpvc .tuberiaconduitpvc-img-left {
         max-width: 100%;
     }
 }
 /*@media (max-width: 992px) */
 @media (max-width: 980px) {
 
-    #sanitariatuberiapvc .sanitariatuberiapvc-img-right,
-    #sanitariatuberiapvc .sanitariatuberiapvc-img-left {
+    #tuberiaconduitpvc .tuberiaconduitpvc-img-right,
+    #tuberiaconduitpvc .tuberiaconduitpvc-img-left {
         max-width: 100%;
         float: none;
         padding: 0 0 30px 0;
@@ -1788,6 +1875,42 @@ section {
 
 .ctatuberia .ctatuberia-btn:hover {
     background:   #0F163A; 
+}
+
+/*-----------  ctaconduit  -------------------*/
+
+.ctaconduit {
+    background: #c2c2c2;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.ctaconduit h3 {
+    color: #0F163A;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.ctaconduit p {
+    color: #0F163A;
+}
+
+.ctaconduit .ctaconduit-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #0F163A; 
+    color: #0F163A;
+}
+
+.ctaconduit .ctaconduit-btn:hover {
+    background:   #F16024; 
 }
 
 /*----------------------testimonials-----------------------*/
