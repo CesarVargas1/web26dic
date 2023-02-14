@@ -1558,6 +1558,21 @@ section {
   }
   
 
+
+/* colo slider tabla tablatuberiapvc*/
+
+  .tablatuberiapvc .productoindividual-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #0F163A;
+  }
+  
+  .tablatuberiapvc .productoindividual-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #F16024;
+  }
+
 /*-------- tablatuberiapvc----------------------*/
 
 .tablatuberiapvc .nav-tabs {
