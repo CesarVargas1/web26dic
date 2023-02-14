@@ -867,6 +867,95 @@ h6 {
     }
 }
 
+
+
+/*------  masillas  -----------*/
+
+#masillas {
+    width: 100%;
+    height: 80vh;
+    background: url("/img/masillasfondo.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+
+#masillas:before {
+    content: "";
+    background: rgba(45, 53, 69, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#masillas .container {
+    text-align: center;
+    padding-top: 50px;
+}
+/*@media (max-width: 992px)*/
+@media (max-width: 892px) {
+    #masillas .container {
+        padding-top: 100PX;
+        padding-bottom: 100px;
+    }
+}
+
+#masillas h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#masillas h2 {
+    color: #eee;
+    margin: 15px 0 0 0;
+    font-size: 22px;
+}
+
+#masillas .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 9px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 40px;
+    border: 2px solid #f16024;
+    color: #fff;
+}
+
+#masillas .btn-get-started:hover {
+    background: #f16024;
+}
+/*@media (min-width: 1024px)*/
+@media (min-width: 980px) {
+    #masillas {
+        background-attachment: fixed;
+    }
+}
+/*@media (max-width: 768px)*/
+@media (max-width: 960px) {
+    #masillas {
+        height: 100vh;
+    }
+
+    #masillas h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #masillas h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+
 /* ctatuberia pendiente*/
 
 #call-to-action2  {
