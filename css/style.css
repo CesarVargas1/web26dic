@@ -1898,19 +1898,20 @@ section {
 
 #beneficios {
     background: #fff;
-    padding: 60px 0 0 0;
+    padding: -60px 0 0 0;
     overflow: hidden;
 }
 
 #beneficios .beneficios-img {
     text-align: center;
     padding-top: 20px;
-}
+   }
+
 
 @media (min-width: 769px) {
     #beneficios .beneficios-img {
-        padding-top: 120px;
-        margin-top: -40px;
+        padding-top: 15px;
+     
     }
 }
 
