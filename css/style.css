@@ -764,13 +764,13 @@ h6 {
 
 
 /*--------------------------------------------------------------
-# Features Section
+# Features internos Section
 --------------------------------------------------------------*/
-.features .nav-tabs {
+.internos .nav-tabs {
   border: 0;
 }
 
-.features .nav-link {
+.internos .nav-link {
     text-align: center;
   border: 0;
   padding: 25px 20px;
@@ -786,67 +786,67 @@ h6 {
   height: 100%;
 }
 
-.features .nav-link i {
+.internos .nav-link i {
   font-size: 32px;
   line-height: 0;
 }
 
-.features .nav-link h4 {
+.internos .nav-link h4 {
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0 0 0;
   color: var(--color-secondary);
 }
 
-.features .nav-link:hover {
+.internos .nav-link:hover {
   color: var(--color-primary);
 }
 
-.features .nav-link.active {
+.internos .nav-link.active {
   transition: 0.3s;
   background: var(--color-secondary) linear-gradient(rgba(var(--color-primary-rgb), 0.95), rgba(var(--color-primary-rgb), 0.6));
   border-color: var(--color-primary);
 }
 
-.features .nav-link.active h4 {
+.internos .nav-link.active h4 {
   color: var(--color-white);
 }
 
-.features .nav-link.active i {
+.internos .nav-link.active i {
   color: var(--color-white) !important;
 }
 
-.features .tab-content {
+.internos .tab-content {
   margin-top: 30px;
 }
 
-.features .tab-pane.active {
+.internos .tab-pane.active {
   -webkit-animation: fadeIn 0.5s ease-out;
   animation: fadeIn 0.5s ease-out;
 }
 
-.features .tab-pane h3 {
+.internos .tab-pane h3 {
   font-weight: 600;
   font-size: 36px;
   color: var(--color-secondary);
 }
 
-.features .tab-pane ul {
+.internos .tab-pane ul {
   list-style: none;
   padding: 0;
 }
 
-.features .tab-pane ul li {
+.internos .tab-pane ul li {
   padding-bottom: 10px;
 }
 
-.features .tab-pane ul i {
+.internos .tab-pane ul i {
   font-size: 24px;
   margin-right: 4px;
   color: var(--color-primary);
 }
 
-.features .tab-pane p:last-child {
+.internos .tab-pane p:last-child {
   margin-bottom: 0;
 }
 
