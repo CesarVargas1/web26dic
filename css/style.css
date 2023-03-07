@@ -763,7 +763,6 @@ h6 {
 }
 
 
-
 /*--------------------------------------------------------------
 # Features internos Section
 --------------------------------------------------------------*/
@@ -860,9 +859,6 @@ h6 {
     opacity: 1;
   }
 }
-
-
-
 
 /*--------------------------------------------------------------
 # menutuberia Section
@@ -1016,10 +1012,6 @@ h6 {
     transform: scale(1.2);
   }
 
-
-
-
-
 /* accesorios*/
 
 #accesorios {
@@ -1152,8 +1144,6 @@ h6 {
     color: #fff;
   }
 
-
-
   /* ---------tuberia inicio -----------*/
 
 #tuberia {
@@ -1239,8 +1229,6 @@ h6 {
         line-height: 20px;
     }
 }
-
-
 
 /* ---------tuberiasanitaria inicio -----------*/
 
@@ -1328,7 +1316,6 @@ h6 {
     }
 }
 
-
 /* ---------tuberiaconduit inicio -----------*/
 
 #tuberiaconduit {
@@ -1414,7 +1401,6 @@ h6 {
         line-height: 20px;
     }
 }
-
 
 /* ---------tuberiaventilacion -----------*/
 
@@ -1502,8 +1488,6 @@ h6 {
     }
 }
 
-
-
 /*------  tuberiapresion  -----------*/
 
 #tuberiapresion {
@@ -1590,8 +1574,6 @@ h6 {
     }
 }
 
-
-
 /*------  masillas  -----------*/
 
 #masillas {
@@ -1677,7 +1659,6 @@ h6 {
         line-height: 20px;
     }
 }
-
 
 /* ctatuberia pendiente*/
 
@@ -1917,7 +1898,6 @@ section {
     color: #0F163A;
 }
 
-
 .nuestrosproductos .member .social p:hover {
     color: #0F163A;
 }
@@ -2023,7 +2003,6 @@ section {
 .nuestrasoldadura .member .social a:hover {
     color: #00BB2D;
 }
-
 
 .nuestrasoldadura .member .social p:hover {
     color: #F16024;
@@ -2157,10 +2136,7 @@ section {
     background: #f16024;
 }
 
-
-  /*--------------------------------------------------------------
-  # Portfolio Details pagina individual color
-  --------------------------------------------------------------*/
+  /*------------ pagina individual color-------------------------*/
   .productoindividual {
     padding-top: 40px;
     background-color: #f7f8fa;
@@ -2225,8 +2201,6 @@ section {
     padding: 0;
   }
   
-
-
 /* colo slider tabla tablatuberiapvc*/
 
   .tablatuberiapvc .productoindividual-slider .swiper-pagination .swiper-pagination-bullet {
@@ -2401,7 +2375,6 @@ section {
     text-align: center;
     padding-top: 20px;
    }
-
 
 @media (min-width: 769px) {
     #beneficios .beneficios-img {
@@ -3139,6 +3112,7 @@ section {
 .productoselectricos-details .productoselectricos-description p {
     padding: 0;
 }
+
 /*---------------accesoriospvc ----------------------------*/
 .accesoriospvc .member {
     margin-bottom: 20px;
@@ -3454,6 +3428,7 @@ section {
     padding: 8px;
     border: 2px dotted #f16024;
   }
+
   .contact .info-box i {
     font-size: 32px;
     color: #f16024;
@@ -3575,7 +3550,9 @@ section {
         transform: rotate(360deg);
     }
   }
+
 /*----------- Footer ----------------*/
+
 #footer {
     color: #414c64;
     font-size: 14px;
