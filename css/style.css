@@ -7,12 +7,12 @@ body {
 }
 
 a {
-    color: #f16024;
+    color: #0F163A;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ffce3a;
+    color: #F16024;
     text-decoration: none;
 }
 
@@ -754,12 +754,15 @@ h6 {
     }
 }
 
+/*mision*/
 
 .mision .container{
-
-    background-color: #87858572;
+    background-color: #d0d0d0f4;
     border-radius: 35px;
+    color: #000000;
 }
+
+
 
 /*--------------------------------------------------------------
 # Features internos Section
