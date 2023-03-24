@@ -949,8 +949,6 @@ h6 {
 /*--------------------------------------------------------------
 # menutuberia Section
 --------------------------------------------------------------*/
-
-
 .menutuberia .img {
   border-radius: 8px;
   overflow: hidden;
@@ -1022,9 +1020,12 @@ h6 {
   transform: scale(1.2);
 }
 
-/* s*/
-
-
+@media (max-width: 768px) {
+.menutuberia th {
+    font-size: 14.5px;
+ 
+  }
+ }
 /*--------------------------------------------------------------
 # menutuberia Section
 --------------------------------------------------------------*/
@@ -1302,7 +1303,7 @@ h6 {
     }
 }
 /*@media (max-width: 768px)*/
-@media (max-width: 960px) {
+@media (max-width: 768px) {
     #tuberia {
         height: 100vh;
     }
