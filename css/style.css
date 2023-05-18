@@ -1574,6 +1574,24 @@ h6 {
     }
 }
 
+.container .productoindividual-slider .swiper-pagination {
+    margin-top: 10px;
+    position: relative;
+  }
+  
+ .container .productoindividual-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #0F163A;
+  }
+
+  .container .productoindividual-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #F16024;
+  }
+
+
 /* ---------tuberiaventilacion -----------*/
 
 #tuberiaventilacion {
@@ -2307,6 +2325,7 @@ section {
 .cta .cta-btn:hover {
     background: #f16024;
 }
+
 
   /*------------ pagina individual color-------------------------*/
   .productoindividual {
